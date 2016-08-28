@@ -97,5 +97,5 @@ tidyDataSet <- select(tidyDataSet, -activity_id)
 
 # write the new data set to a text file
 
-write.table(tidyDataSet, file = "Dataset.txt")
+write.table(tidyDataSet, file = "Dataset.txt", row.names = FALSE)
 
